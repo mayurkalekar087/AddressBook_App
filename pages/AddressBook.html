@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Address Book HomePage</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="..\css\AddressBook.css" />
+  </head>
+  <body>
+    <header class="header-content header">
+      <div class="logo-content" onclick="location.href='./index.html'">
+        <img src="..\assets\address-book_Logo.png" alt="Logo" />
+        <div class="logo-txt">
+          <span class="address-text">Address</span><br />
+          <span class="book-text">Book</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <div class="header-content sub-main-content">
+        <div class="person-detail-text">
+          Contact Details
+          <div class="person-count">2</div>
+        </div>
+        
+        <a href="..\pages\Form.html" class="add-button button"> Add Person </a>
+      </div>
+
+      <div class="table-main">
+        <table class="table" id="display">
+      
+          <tr>
+          <th>Full Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>ZIP</th>
+            <th>Phone Number</th>
+            <th></th>
+        
+          </tr>
+          <tr>
+          <td>Mayur Kalekar</td>
+            <td>Ekta Nagar,Buldhana</td>
+            <td>Buldhana</td>
+            <td>Maharashtra</td>
+            <td>443001</td>
+            <td>88805269477</td>
+            <td class="action-group">
+              <img src="../assets/delete_black_18dp.svg" alt="delete" />
+              <img src="../assets/edit_black_18dp.svg" alt="create" />
+            </td>
+          
+          </tr>
+          <tr>
+          <td>Kunal Jain</td>
+            <td>Keshav Nagar,Buldhana</td>
+            <td>Buldhana</td>
+            <td>Maharashtra</td>
+            <td>443001</td>
+            <td>5968877446</td>
+            <td class="action-group">
+              <img src="../assets/delete_black_18dp.svg" alt="delete" />
+              <img src="../assets/edit_black_18dp.svg" alt="create" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
