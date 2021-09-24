@@ -1,0 +1,106 @@
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 3rem;
+  }
+  .form-head {
+    font: normal normal 400 24px/37px Roboto;
+    letter-spacing: 1px;
+    color: var(--clr-white);
+    background-color: var(--clr-primary);
+    width: 65%;
+    text-transform: uppercase;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: var(--shadow);
+  }
+  .form {
+    width: 65%;
+    padding: 44px 60px;
+    background: var(--clr-white) 0% 0% no-repeat padding-box;
+    box-shadow: var(--shadow);
+    border-radius: 0 0 8px 8px;
+  }
+  .label-div {
+    margin-bottom: 0.5rem;
+  }
+  .label {
+    min-width: 180px;
+    font-weight: 500;
+  }
+  .text {
+    font-size: 16px;
+    color: var(--clr-secondary);
+    font-family: Roboto;
+  }
+  .input {
+    width: 100%;
+    padding: 12px;
+    border: var(--input-border);
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .cityState {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 1rem;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    border: var(--input-border);
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 14px Roboto;
+    color: var(--clr-secondary);
+    background-color: transparent;
+  }
+  .button-parent {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: end;
+    margin-top: 30px;
+  }
+  .submitButton {
+    margin-right: 30px;
+  }
+  .submitButton,
+  .resetButton {
+    padding: 0.5rem 3.5rem;
+  }
+  a.button:hover,
+  .resetButton:hover {
+    background: var(--clr-darkgray);
+    color: var(--clr-white);
+  }
+  .submitButton:hover {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    border: 2px solid var(--clr-primary);
+  }
+  .cancel {
+    height: 30px;
+  }
+  .group-error {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  error-output {
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: var(--clr-red);
+  }
+  .font-familt{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
